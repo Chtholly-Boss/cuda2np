@@ -1,0 +1,6 @@
+[submodule "TensorRT"]
+	path = TensorRT
+	url = https://github.com/NVIDIA/TensorRT.git
+[submodule "cccl"]
+	path = cccl
+	url = https://github.com/NVIDIA/cccl
