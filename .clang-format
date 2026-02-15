@@ -1,0 +1,22 @@
+# https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+BasedOnStyle: LLVM
+IndentWidth: 4
+
+ColumnLimit: 160
+AlignAfterOpenBracket: true
+AlignConsecutiveAssignments: AcrossEmptyLines
+AlignConsecutiveBitFields: AcrossEmptyLines
+AlignConsecutiveMacros: AcrossEmptyLines
+AlignEscapedNewlines: LeftWithLastLine
+
+AllowAllArgumentsOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortBlocksOnASingleLine: Empty
+
+BinPackArguments: false
+BinPackLongBracedList: false
+BinPackParameters: OnePerLine
+
+BreakBeforeTemplateCloser: true
+
+IncludeBlocks: Preserve

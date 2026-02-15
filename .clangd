@@ -1,0 +1,12 @@
+CompileFlags:
+    Add:
+        - -I.venv/lib/python3.12/site-packages/tvm_ffi/include
+        - -c
+        - -std=c++20
+        - --cuda-gpu-arch=sm_120
+        - --cuda-path=/usr/local/cuda
+        - -D_CG_CLUSTER_INTRINSICS_AVAILABLE=1
+    Remove:
+        - -forward-unknown-to-host-compiler
+        - --options-file
+        - -Xcompiler=-fPIC
